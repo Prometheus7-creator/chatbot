@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chatbot</title>
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="chathead">
+            <img src="{{ url_for('static', filename='robot.png') }}" alt="bot-icon">
+        <span id='botname'>
+             Online 
+            <div id='onlinedot'></div></span>
+        </div>
+        <div id="chatwindow">
+            <div id="messagelist"></div>
+            
+                <input type=text id='currentchat' name=currentchat value='' placeholder="type a message...">
+                    </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

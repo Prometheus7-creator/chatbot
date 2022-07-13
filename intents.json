@@ -1,0 +1,115 @@
+{
+	"intents": [ 
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"Hello",
+				"Good day",
+				"Good Morning",
+				"Good Afternoon",
+				"Hi there"
+			],
+			"responses": [
+				"Hey",
+				"Hello",
+				"Hi",
+				"How can I help?",
+				"Hi, thanks for visiting"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Good bye",
+				"Good night",
+				"See you soon",
+				"Talk to you later"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! come back again soon."
+			]
+		},
+		{
+			"tag": "Market news",
+			"patterns": [
+				"Show me stock market news",
+				"How's the stock market ",
+				"How is the market going",
+				"What is the market news",
+				"What is the latest market report",
+				"Today's market news",
+				"Market news"
+			],
+			"responses": [
+				"Here's your updates for today",
+				"Here's how the market looks for today",
+				"This is today's market news"
+			]
+		},
+		{
+			"tag": "stock price",
+			"patterns": [
+				"What is the stock price for",
+				"Stock's market price",
+				"What is the stock price for",
+				"Latest stock price for",
+				"Latest stock price",
+				"Stock price",
+				"Stock value",
+				"Search for stock price",
+				"Search for stock"
+			],
+			"responses": [
+				"Look it up",
+				"Enter the stock name",
+				"Enter in the search bar"
+			]
+		},
+		{
+			"tag": "timings",
+			"patterns": [
+				"Market timings?",
+				"What are the timings?",
+				"When is the market open?",
+				"Is market open?",
+				"How long is market open?"
+			],
+			"responses": [
+				"Market is open from 9:30 AM to 3:30 PM"
+			]
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"What is your name?",
+				"Who are you?",
+				"Your name?",
+				"What should I call you"
+			],
+			"responses": [
+				"My name is ",
+				"I am "
+			]
+		},
+		{
+			"tag": "help",
+			"patterns": [
+				"What do you do?",
+				"Help",
+				"What is your purpose",
+				"What is your work",
+				"What do you help with?"
+			],
+			"responses": [
+				"I am your stock market assistant\n\nYou can ask me to:\n\nSearch for a stock price\n\nGet latest stock market news\n\nStock market timings"
+			]
+		}
+	]
+}

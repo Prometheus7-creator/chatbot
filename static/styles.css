@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+
+#botname {
+    color: lightgreen;
+    font-family: monospace;
+    font-size: 12px;
+}
+/* 
+#onlinedot {
+    float: right;
+    background-color: lightgreen;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 10px;
+} */
+
+#chatwindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 480px;
+    width: 260px;
+    border: 3px solid blueviolet;
+    border-radius: 10%;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+#currentchat {
+    height: 20px;
+    width: 200px;
+    /* border-radius: 5px; */
+    color: white;
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid grey;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#messagelist {
+    overflow-y: scroll;
+    height: 90%;
+    width: 90%;
+}
+
+.messageContainer {
+    width: 100%;
+    min-height: 5%;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    margin-bottom: 5%;
+}
+
+.message {
+    /* background-color: green; */
+    border: 1px solid lightgreen;
+    border-radius: 10px 0px 10px 10px;
+    padding: 3%;
+    /* padding-right: 5%; */
+}
+
+.bot {
+    border: 1px solid dodgerblue;
+    /* background-color: dodgerblue; */
+    border-radius: 0px 10px 10px 10px;
+    color: white;
+}
+
+#chathead {
+    display: flex;
+    height: 4%;
+    width: 25%;
+    justify-content: flex-start;
+    
+}
+
+ @media screen and (max-width: 600px) {
+
+    #chatwindow {
+        height: 80%;
+        width: 100%;
+        border: 0px;
+        border-radius: 0%;
+    }
+     
+    #currentchat {
+        height: 5%;
+        width: 80%;
+            /* border-radius: 20px; */
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+        #chathead {
+            width: 100%;
+            height: 5%;
+            padding-left: 5%;
+        }
+
+ }
